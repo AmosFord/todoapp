@@ -1,0 +1,176 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower                     
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.listitem {
+  text-align: left;
+}
+
+h1 {
+  color: rgba(175, 47, 47, 0.15);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+}
+
+h3 {
+  color: rgba(0,0,0, 0.35);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  padding: 30px;
+}
+
+h6 {
+   color: rgba(0,0,0, 0.90);
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+
+}
+
+.deletebut {
+
+  color: rgba(175, 47, 47, 0.15);
+  padding-right:2px;
+  font-size: 30px;
+  text-align:center;
+  @media (min-width: $screen-md-min) {
+  display: none;
+  }
+}
+ 
+
+.nopadding {
+    padding:0;
+    padding-left:0;
+    padding-right:0;
+  }
+
+.buttonborder {
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgba(255,127,80, 0.50);
+
+
+}
+
+.margin-bottom {
+  margin-bottom: 2px;
+}
+
+.firstMarginBorder {
+  margin-bottom:1px;
+}
+
+.bullets {
+  margin-top: -5px;
+  text-align:center;
+
+}
+
+.buttonmargin {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: -2px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom:5px;
+  padding-top:5px;  
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+       
+}
+
+.row_feat {
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.btn {
+  border-radius: 0px;
+  background-color: white;
+     height: 35px;
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(0,0,0, 0.35);
+    font-family: 'Raleway', sans-serif;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(0,0,0, 0.35);
+   font-family: 'Raleway', sans-serif;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(0,0,0, 0.35);
+  font-family: 'Raleway', sans-serif;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(0,0,0, 0.35);
+   font-family: 'Raleway', sans-serif;
+}
+
+.stroked { text-decoration: line-through; 
+}
+
+.fa-check-circle-o {
+  color: #33CC33;
+  font-size:30px;
+}
+
+.fa-circle-thin {
+  color:#f5f5f5; font-size:30px;
+}
+
+.fa-chevron-down {
+  color:#f5f5f5; font-size:20px;
+}
+.buttonBackground {
+  background-color: white;
+}
+
+#inputitem {
+  background-color: white;
+  border-radius: 0px;
+  border-color: white; 
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   height: 35px;
+   box-shadow: none;
+  
+}
+
+.inputicon {
+   background-color: white;
+  border-radius: 0px;
+  border-color: none; 
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   height: 35px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
