@@ -78,7 +78,7 @@ $('body').on('mouseleave', '.item',
       });
 
 	function countTasks(){
-		var n = $('li').size() -1;
+		var n = $('li').length -1;
 		$( ".count" ).empty();
 		$("<span>"+ n + "</span>").appendTo('.count');
 		
@@ -117,14 +117,14 @@ $('body').on('mouseleave', '.item',
       });
 
 	function countCompleteTasks(){
-		var n = $('.stroked').size();
+		var n = $('.stroked').length;
 		$( ".count" ).empty();
 		$("<span>"+ n + "</span>").appendTo('.count');
 		
 	}
 
 	function countActiveTasks(){
-		var n = $('p').not('.stroked').size();
+		var n = $('p').not('.stroked').length;
 		$( ".count" ).empty();
 		$("<span>"+ n + "</span>").appendTo('.count');
 		
